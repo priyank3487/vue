@@ -35,3 +35,4 @@ const heandeler = {
   }
 };
 const proxy = new Proxy(data, heandeler);
+proxy.message = "hello!!!";
