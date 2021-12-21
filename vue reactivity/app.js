@@ -10,9 +10,9 @@ const app = Vue.createApp({
       this.currentUserInput = event.target.value;
     },
     setText() {
-      debugger;
+      // debugger;
       this.message = this.currentUserInput;
-      console.log('message');
+      // console.log('message');
     },
   },
 });
